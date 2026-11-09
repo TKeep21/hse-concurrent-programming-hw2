@@ -237,10 +237,10 @@
 Фрагмент дампа, снятого во время ожидания:
 
 ```text
-"pool-2-thread-1" ... waiting on condition
+"pool-13-thread-1" ... waiting on condition
    java.lang.Thread.State: TIMED_WAITING (parking)
    ... ConditionObject.awaitNanos
-   ... ConnectionPoolImpl.borrow(ConnectionPoolImpl.java:109)
+   ... ConnectionPoolImpl.borrow(ConnectionPoolImpl.java:116)
    ... PoolStarvationTest.lambda$allThreadsWaitForSecondConnection$2(PoolStarvationTest.java:27)
 ```
 
